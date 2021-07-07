@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>title</title>
+    </head>
+    <body>
+        <h1>Sample</h1>
+        <p>本文</p>
+        <h1>更新時刻</h1>
+        <p><span id="now_time"></span></p>
+        <script>
+          var now = new Date();
+          document.querySelector("#now_time").innerHTML = now.toLocaleString();
+        </script>
+    </body>
+</html>
